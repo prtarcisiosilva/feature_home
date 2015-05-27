@@ -1,0 +1,13 @@
+name = home
+description = atualização  home
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = home
+dependencies[] = views
+dependencies[] = views_data_export
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = home
+features[views_view][] = relat_rios
+features_exclude[dependencies][ctools] = ctools
